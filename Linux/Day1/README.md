@@ -25,35 +25,35 @@ sudo adduser devuser
 🔹 Verify Home Directory
    pwd
 
-🧪 Lab 2 – File Permissions & Ownership
-🔹 Create a File
-touch labfile.txt
-🔹 Check Permissions
-ls -l
-🔹 Change Permissions
-chmod 755 labfile.txt
-🔹 Change Ownership
-sudo chown devuser labfile.txt
-✅ Outcome:
+# 🧪 Lab 2 – File Permissions & Ownership
+ 🔹 Create a File
+    touch labfile.txt
+ 🔹 Check Permissions
+    ls -l
+ 🔹 Change Permissions
+    chmod 755 labfile.txt
+ 🔹 Change Ownership
+    sudo chown devuser labfile.txt
+ ✅ Outcome:
 
 Understood Linux permission structure (Owner, Group, Others) and modified file access using chmod and chown.
 
 📸 Screenshot:
 
-🧪 Lab 3 – Process Management
- 🔹 Run Background Process
-    sleep 200 &
- 🔹 Check Running Process
-    ps aux | grep sleep
- 🔹 Kill Process
-    kill -9 PID
+# 🧪 Lab 3 – Process Management
+  🔹 Run Background Process
+     sleep 200 &
+  🔹 Check Running Process
+     ps aux | grep sleep
+  🔹 Kill Process
+     kill -9 PID
 ✅ Outcome:
 
 Learned how to manage running processes, identify PID, and terminate background processes.
 
 📸 Screenshot:
 
-🧪 Lab 4 – Vim Text Editor
+# 🧪 Lab 4 – Vim Text Editor
   🔹 Open File in Vim
      vim labvim.txt
   🔹 Insert Content
@@ -61,7 +61,7 @@ Learned how to manage running processes, identify PID, and terminate background 
     Press:
 
      i
- 🔹 Save & Exit
+  🔹 Save & Exit
     :wq
 ✅ Outcome:
 
