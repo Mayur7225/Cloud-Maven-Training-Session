@@ -18,51 +18,76 @@ All labs were executed on a Linux environment (WSL).
 
 ### 🔹 Create a New User
 
-```bash
 sudo adduser devuser
-🔹 Switch to the User
-   su - devuser
-🔹 Verify Home Directory
+###🔹 Switch to the User
+```bash
+      su - devuser
+```
+###🔹 Verify Home Directory
+```bash
    pwd
+```
 
-# 🧪 Lab 2 – File Permissions & Ownership
- 🔹 Create a File
-    touch labfile.txt
- 🔹 Check Permissions
-    ls -l
- 🔹 Change Permissions
-    chmod 755 labfile.txt
- 🔹 Change Ownership
-    sudo chown devuser labfile.txt
+## 🧪 Lab 2 – File Permissions & Ownership
+
+###  🔹 Create a File
+```bash
+  touch labfile.txt
+```
+###🔹 Check Permissions
+```bash
+  ls -l
+```
+###🔹 Change Permissions
+```bash
+  chmod 755 labfile.txt
+```
+###🔹 Change Ownership
+```bash
+  sudo chown devuser labfile.txt
+```
  ✅ Outcome:
 
 Understood Linux permission structure (Owner, Group, Others) and modified file access using chmod and chown.
 
 📸 Screenshot:
 
-# 🧪 Lab 3 – Process Management
-  🔹 Run Background Process
-     sleep 200 &
-  🔹 Check Running Process
-     ps aux | grep sleep
-  🔹 Kill Process
+## 🧪 Lab 3 – Process Management
+
+###🔹 Run Background Process
+```bash
+  sleep 200 &
+```
+###🔹 Check Running Process
+```bash
+   ps aux | grep sleep
+```
+###🔹 Kill Process
+```bash
      kill -9 PID
+```
+
 ✅ Outcome:
 
 Learned how to manage running processes, identify PID, and terminate background processes.
 
 📸 Screenshot:
 
-# 🧪 Lab 4 – Vim Text Editor
-  🔹 Open File in Vim
+## 🧪 Lab 4 – Vim Text Editor
+###🔹 Open File in Vim
+```bash
      vim labvim.txt
-  🔹 Insert Content
-
+```
+###🔹 Insert Content
+```bash
     Press:
-
      i
-  🔹 Save & Exit
+```
+###🔹 Save & Exit
+```bash   
     :wq
+```
+
 ✅ Outcome:
 
 Practiced editing files using Vim editor and understood different modes (Insert, Normal, Command).
