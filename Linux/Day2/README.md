@@ -12,33 +12,35 @@ This session focused on advanced Linux administration tasks including:
 
 # 🧪 Lab 1 – SSH Key Setup
 
- 🔹 Generate SSH Key
+### 🔹 Generate SSH Key
     ```bash
       ssh-keygen
     ```
- 🔹 Copy Key
+
+###🔹 Copy Key
     ```bash
       ssh-copy-id devuser@localhost
     ```
- 🔹 Disable Password Login
-  Edited:
-    ```bash
+
+### 🔹 Disable Password Login
+       Edited:
+       ```bash
        /etc/ssh/sshd_config
-    ```
-  Updated:
-    ```bash
+       ```
+      Updated:
+       ```bash
        PasswordAuthentication no
        PermitRootLogin no
        PubkeyAuthentication yes
-    ```
-  Restarted:
-    ```bash
+       ```
+       Restarted:
+       ```bash
        sudo systemctl restart ssh
-    ```
+       ```
 
-🧪 Lab 2 – Cron Job
+# 🧪 Lab 2 – Cron Job
   
- 🔹 Create Cron Job
+### 🔹 Create Cron Job
     ```bash
        crontab -e
      ```
@@ -46,30 +48,35 @@ This session focused on advanced Linux administration tasks including:
   ```bash
         * * * * * echo "Test" >> /tmp/test.log
   ```
- 🔹 Verify
+
+### 🔹 Verify
     ```bash
          cat /tmp/test.log
     ```
 
-🧪 Lab 3 – systemd Timer
- 🔹 Script
+# 🧪 Lab 3 – systemd Timer
+
+###🔹 Script
     ```bash
      #!/bin/bash
      echo "Hello Systemd" >> /tmp/systemd.log
     ```
- 🔹 Service & Timer Created
+
+###🔹 Service & Timer Created
 
   Enabled:
     ```bash
         sudo systemctl enable hello.timer
         sudo systemctl start hello.timer
- 🔹 Verification
+   ```
+
+###🔹 Verification
     ```bash 
        systemctl list-timers
        cat /tmp/systemd.log
      ```
 
-🧪 Homework – Log Archiving
+# 🧪 Homework – Log Archiving
 
 Created a bash script:
 ```bash
