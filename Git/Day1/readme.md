@@ -25,7 +25,7 @@ git version 2.x.x
 ## Screenshots
 
 ### Git Version
-![Git Version](Screenshot 2026-03-04 192341.png)
+![Git Version](git-version.png)
 ---
 
 ## 2. Git Configuration
@@ -84,7 +84,7 @@ print("Hello Git Training")
 ```
 
 ## Screenshot
-![Git Touch](Screenshot 2026-03-04 192842.png)
+![Git Touch](git-touch.png)
 
 ---
 
