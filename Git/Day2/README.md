@@ -10,7 +10,7 @@ git reset --soft HEAD~1
 git checkout feature/login
 
 Screenshot:
-screenshots/scenario1-wrong-branch-commit.png.png
+![Scenario1](scenario1-wrong-branch-commit.png)
 
 
 ## Scenario 2 - Bad Commit Already Pushed
@@ -21,7 +21,7 @@ Commands used:
 git revert HEAD
 
 Screenshot:
-screenshots/scenario2-git-revert.png
+![Scenario2](scenario2-git-revert.png)
 
 
 ## Scenario 3 - Merge Conflict
@@ -35,4 +35,4 @@ git add
 git commit
 
 Screenshot:
-screenshots/scenario3-merge-conflict.png
+![Scenario3](scenario3-merge-conflict.png)
