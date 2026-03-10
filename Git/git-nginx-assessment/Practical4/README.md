@@ -66,7 +66,7 @@ git commit -m "Resolve merge conflict"
 
 Below is the screenshot showing the merge conflict process.
 
-![Merge Conflict Screenshot](Practical 4.png)
+![Merge Conflict Screenshot](screenshots/Practical4.png)
 
 ---
 
