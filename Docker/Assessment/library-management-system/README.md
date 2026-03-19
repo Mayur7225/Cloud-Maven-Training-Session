@@ -18,9 +18,8 @@ I worked on Docker basics, custom image creation, networking, security, and Dock
 
 ### 📸 Screenshots
 
-* Docker installation
-* docker run output
-* docker ps (running container)
+![Docker Build](screenshots/docker install.png) 
+![Docker Build](screenshots/docker run.png)
 
 ---
 
@@ -43,9 +42,8 @@ mysql_data:/var/lib/mysql
 ```
 
 ### 📸 Screenshots
+![Bind Mount](screenshots/Bind mount.png)
 
-* Bind mount working
-* Data persistence after restart
 
 ---
 
@@ -63,8 +61,8 @@ docker push mayur7225/flask-app:v1
 
 ### 📸 Screenshots
 
-* Docker build success
-* Docker push success
+![Docker Build](screenshots/Docker build.png)
+![Docker Push](screenshots/Docker push.png)
 
 ---
 
@@ -80,9 +78,9 @@ docker network create mynetwork
 
 ### 📸 Screenshots
 
-* docker network create
-* docker ps (containers in same network)
-* connectivity proof
+![Docker Network](screenshots/Docker network.png)
+![Network connectivity](screenshots/connectivity proof.png)
+
 
 ---
 
@@ -98,8 +96,8 @@ docker network create mynetwork
 
 ### 📸 Screenshots
 
-* Resource limits
-* Trivy scan output
+![Resource limit](screenshots/resource limit.png')
+![Scan](screenshots/Trivy scan.png')
 
 ---
 
@@ -142,8 +140,8 @@ http://localhost:8000
 
 ### 📸 Screenshots
 
-* Nginx default page (before)
-* Final Flask app output
+
+![Flask app](screenshots/Final flask app.png')
 
 ---
 
