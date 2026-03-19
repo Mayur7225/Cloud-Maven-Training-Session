@@ -18,8 +18,8 @@ I worked on Docker basics, custom image creation, networking, security, and Dock
 
 ### 📸 Screenshots
 
-![Docker Build](screenshots/docker install.png) 
-![Docker Build](screenshots/docker run.png)
+![Docker Build](screenshots/docker%20install.png) 
+![Docker Build](screenshots/docker%20run.png)
 
 ---
 
@@ -42,7 +42,7 @@ mysql_data:/var/lib/mysql
 ```
 
 ### 📸 Screenshots
-![Bind Mount](screenshots/Bind mount.png)
+![Bind Mount](screenshots/bind-mount.png)
 
 
 ---
@@ -61,8 +61,8 @@ docker push mayur7225/flask-app:v1
 
 ### 📸 Screenshots
 
-![Docker Build](screenshots/Docker build.png)
-![Docker Push](screenshots/Docker push.png)
+![Docker Build](screenshots/Docker%20build.png)
+![Docker Push](screenshots/Docker%20push.png)
 
 ---
 
@@ -78,8 +78,8 @@ docker network create mynetwork
 
 ### 📸 Screenshots
 
-![Docker Network](screenshots/Docker network.png)
-![Network connectivity](screenshots/connectivity proof.png)
+![Docker Network](screenshots/Docker%20network.png)
+![Network connectivity](screenshots/connectivity%20proof.png)
 
 
 ---
@@ -96,8 +96,8 @@ docker network create mynetwork
 
 ### 📸 Screenshots
 
-![Resource limit](screenshots/resource limit.png')
-![Scan](screenshots/Trivy scan.png')
+![Resource limit](screenshots/resource%20limit.png')
+![Scan](screenshots/Trivy%20scan.png')
 
 ---
 
@@ -141,7 +141,7 @@ http://localhost:8000
 ### 📸 Screenshots
 
 
-![Flask app](screenshots/Final flask app.png')
+![Flask app](screenshots/Final%20flask%20app.png')
 
 ---
 
