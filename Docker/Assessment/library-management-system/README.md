@@ -96,8 +96,8 @@ docker network create mynetwork
 
 ### 📸 Screenshots
 
-![Resource limit](screenshots/resource%20limit.png')
-![Scan](screenshots/Trivy%20scan.png')
+![Resource limit](screenshots/resource%20limit.png)
+![Scan](screenshots/Trivy%20scan.png)
 
 ---
 
@@ -141,7 +141,7 @@ http://localhost:8000
 ### 📸 Screenshots
 
 
-![Flask app](screenshots/Final%20flask%20app.png')
+![Flask app](screenshots/Final%20flask%20app.png)
 
 ---
 
