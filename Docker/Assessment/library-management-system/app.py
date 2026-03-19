@@ -1,0 +1,29 @@
+from flask import Flask, g, escape, session, redirect, render_template, request, jsonify, Response
+from Misc.functions import *
+
+app = Flask(__name__)
+app.secret_key = '#$ab9&^BB00_.'
+
+# Setting DAO Class
+import Models.dao_instance as dao_instance
+from Models.DAO import DAO as DAOClass
+
+dao_instance.dao = DAOClass(app)
+
+# Registering blueprints
+from routes.user import user_view
+from routes.book import book_view
+from routes.admin import admin_view
+
+# Registering custom functions to be used within templates
+app.jinja_env.globals.update(
+    ago=ago,
+    str=str,
+)
+
+app.register_blueprint(user_view)
+app.register_blueprint(book_view)
+app.register_blueprint(admin_view)
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
