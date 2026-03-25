@@ -1,0 +1,10 @@
+name: use-shared-ci
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-shared-ci:
+    uses: Mayur7225/Cloud-Maven-Training-Session/.github/workflows/shared-ci.yml@main
