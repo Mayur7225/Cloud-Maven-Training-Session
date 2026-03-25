@@ -11,4 +11,4 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Run CI Check
-        run: echo "Running Shared CI Quality Check"
+        run: echo "Shared workflow updated!"
