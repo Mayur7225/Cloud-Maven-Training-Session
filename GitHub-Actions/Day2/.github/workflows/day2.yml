@@ -3,7 +3,7 @@ name: Day2 CI Pipeline
 on:
   push:
      branches:
-       -main
+       - main
   pull_request:
     branches:
       - main
