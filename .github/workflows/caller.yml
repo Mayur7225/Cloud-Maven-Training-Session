@@ -11,7 +11,7 @@ jobs:
     uses: username/workflow-repo/.github/workflows/docker-ci.yml@v1.0.0
 
     with:
-      image_name: ${{ secrets.DOCKER_USERNAME }}/myapp
+      image_name: myapp
       tag: ${{ github.ref == 'refs/heads/main' && format('prod-{0}', github.sha) || format('staging-{0}', github.sha) }}
 
     secrets:
