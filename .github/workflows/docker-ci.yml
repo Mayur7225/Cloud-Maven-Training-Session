@@ -36,7 +36,7 @@ jobs:
       - name: Scan Image
         uses: aquasecurity/trivy-action@master
         with:
-          image-ref: ${{ secrets.DOCKER_USERNAME }}${{ inputs.image_name }}:${{ inputs.tag }}
+          image-ref: ${{ secrets.DOCKER_USERNAME }}/${{ inputs.image_name }}:${{ inputs.tag }}
           exit-code: 1
           severity: HIGH,CRITICAL
 
