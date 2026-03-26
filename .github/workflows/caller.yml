@@ -8,7 +8,7 @@ on:
 
 jobs:
   call:
-    uses: ./.github/workflows/docker-ci.yml@v1.0.0
+    uses: ./.github/workflows/docker-ci.yml
 
     with:
       image_name: myapp
